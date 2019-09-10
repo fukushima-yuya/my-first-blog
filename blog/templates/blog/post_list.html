@@ -1,35 +1,12 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="ja">
-    <head>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <meta http-equiv="Content-Type" context="text/html; charset=utf-8"/>
-
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-        <title>testpage</title>
-    </head>
-    <body>
-        <div>
-            <h1>Djangogirldblog</h1>
-        </div>
-        {% for post in posts %}
-        <div>
+{% extends 'blog/base.html' %}
+{% block content %}
+    {% for post in posts %}
+    <div class="post">
+        <div class="date">
             <p>published:{{ post.published_date }}</p>
-            <h2>{{ post.title }}</h2>
-            <p>{{ post.text|linebreaksbr }}</p>
         </div>
-        {% endfor %}
-        <div>
-            <p>published: </p>
-            <h2>title1</h2>
-            <p>Aenean eu leo quem. こんにちは！よろしくお願いします！</p>
-        </div>
-        
-        <div>
-            <p>公開日: </p>
-            <h2>subtitle</h2>
-            <p>こんにちは！よろしくお願いします！</p>
-        </div>
-    </body>
-</html>
+        <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+    {% endfor %}
+{% endblock %}
