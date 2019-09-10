@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5c58845-fd1b-4d8a-818c-48bc2e02268f" name="Default Changelist" comment="" />
+    <list default="true" id="f5c58845-fd1b-4d8a-818c-48bc2e02268f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/static/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +46,17 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ise-rc-task-management-search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/static/css/blog.css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/blog/static/css/blog.css" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,6 +108,7 @@
       <workItem from="1567753024467" duration="2864000" />
       <workItem from="1568011424545" duration="2085000" />
       <workItem from="1568081574307" duration="3964000" />
+      <workItem from="1568093254366" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="modelchange">
       <created>1568082597603</created>
@@ -137,6 +144,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="modelchange" />
     <option name="LAST_COMMIT_MESSAGE" value="modelchange" />
   </component>
